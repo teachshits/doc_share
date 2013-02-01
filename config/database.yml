@@ -1,0 +1,29 @@
+development:
+  host: localhost
+  port: 5432
+  adapter: postgresql
+  encoding: unicode
+  database: doc_share_development
+  pool: 5
+  username: doc_share
+  password: doc_share
+
+test:
+  host: localhost
+  port: 5432
+  adapter: postgresql
+  encoding: unicode
+  database: doc_share_test
+  pool: 5
+  username: doc_share
+  password: doc_share
+
+production:
+  host: localhost
+  port: 5432
+  adapter: postgresql
+  encoding: unicode
+  database: doc_share_production
+  pool: 5
+  username: doc_share
+  password: doc_share
